@@ -1,13 +1,12 @@
 body {
-    font-family: 'Overpass Mono', monospace;
-    font-size: 19px;
+    font-family: 'IBM Plex Mono', monospace;
     text-align: center;
 
     left: 0;
     margin: auto;
     margin-top: -100px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
 
     background-color: #21252b;
@@ -15,18 +14,30 @@ body {
 }
 
 i {
-    font-size: 24;
     padding: 10;
 }
 
 .link, .link:hover, .link:focus, .link:active {
     text-decoration: none;
     color: inherit;
-    padding: 15px;
+    padding: 22px;
+    font-size: 22px;
 }
 
 .cdr {
     color: inherit;
     text-decoration: underline;
     text-align: center;
+}
+
+p {
+    font-size: 21px;
+}
+
+.fas.fa-chevron-down {
+    font-size: 20px;
+}
+
+img {
+    width: 22px;
 }
