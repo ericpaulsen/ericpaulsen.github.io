@@ -1,0 +1,32 @@
+body {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 22px;
+    text-align: center;
+
+    left: 0;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    background-color: #21252b;
+    color: #FFFFFF;
+}
+
+i {
+    font-size: 24;
+    padding: 10;
+}
+
+.link, .link:hover, .link:focus, .link:active {
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+}
+
+.cdr {
+    color: inherit;
+    text-decoration: underline;
+    text-align: center;
+}
