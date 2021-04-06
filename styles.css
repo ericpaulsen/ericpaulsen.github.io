@@ -32,6 +32,21 @@ i {
 
 p {
     font-size: 21px;
+    display: inline-block;
+    margin:25px;
+    padding:8px;
+    background:
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 100% 100%,
+    linear-gradient(currentColor 0 0) 100% 100%;
+    background-size: var(--d, 0) 3px, 3px var(--d, 0);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+p:hover {
+  --d: 100%;
 }
 
 .fas.fa-chevron-down {
