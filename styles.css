@@ -44,7 +44,7 @@ p {
     linear-gradient(currentColor 0 0) 100% 100%;
     background-size: var(--d, 0) 3px, 3px var(--d, 0);
     background-repeat: no-repeat;
-    transition: 0.5s;
+    transition: 0.35s;
 }
 
 p:hover {
