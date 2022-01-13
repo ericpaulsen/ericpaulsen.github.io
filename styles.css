@@ -20,7 +20,7 @@ i {
 .link, .link:hover, .link:focus, .link:active {
     text-decoration: none;
     color: inherit;
-    padding: 20px;
+    padding: 17px;
     font-size: 25px;
 }
 
@@ -28,6 +28,25 @@ i {
     color: inherit;
     text-decoration: underline;
     text-align: center;
+}
+
+span {
+    position: relative;
+    display: inline-block;
+}
+
+span:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid;
+    width: 0;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    transition: all .15s linear;
+}
+
+span:hover:after {
+    width: 100%;
 }
 
 p {
