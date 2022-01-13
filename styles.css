@@ -20,7 +20,7 @@ i {
 .link, .link:hover, .link:focus, .link:active {
     text-decoration: none;
     color: inherit;
-    padding: 17px;
+    padding: 15px;
     font-size: 25px;
 }
 
