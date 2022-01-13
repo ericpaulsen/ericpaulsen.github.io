@@ -9,7 +9,7 @@ body {
     top: 40%;
     width: 100%;
 
-    background-color: #171d23;
+    background-color: #282a36;
     color: #FFFFFF;
 }
 
@@ -38,7 +38,7 @@ span {
 span:after {
     content: "";
     display: block;
-    border-bottom: 2px solid;
+    border-bottom: 2.5px solid;
     width: 0;
     background-color: #FFFFFF;
     margin: 0 auto;
