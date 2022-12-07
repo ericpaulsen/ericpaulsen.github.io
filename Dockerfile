@@ -1,17 +1,14 @@
-# 1 
 FROM python:3.11
 
-# 2
 RUN pip install Flask
 
-# 3
+# mount /public dir into container
 RUN mkdir /app
-COPY app.py /app
-COPY static/ /app/static
+COPY public/ /app
 WORKDIR /app
 
-# 4
+# app runs on port 8080
 ENV PORT 8080
 
-# 5
+# run the app
 CMD python3 app.py
