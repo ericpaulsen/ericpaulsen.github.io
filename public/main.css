@@ -74,6 +74,11 @@ p:hover {
     font-size: 20px;
 }
 
+.fa-brands {
+    font-size: 45px;
+    vertical-align: middle;
+}
+
 img {
     width: 22px;
 }
